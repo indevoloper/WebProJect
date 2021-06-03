@@ -1,8 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router,Route,Switch } from 'react-router-dom'
-import Home from './components/Home'
 import Login from './components/Login'
-import SignUp from './components/SignUp'
 import {AuthProvider} from './components/Auth'
 import DashBoard from './components/Dashboard'
 
@@ -14,10 +12,9 @@ function App() {
     <AuthProvider>
       <Router>
         <Switch>
-          <Route exact path="/" component = {Home}/>
+          <Route exact path="/" component = {Login}/>
           <Route exact path="/dashboard" component = {DashBoard}/>
-          <Route exact path="/login" component = {Login}/>
-          <Route exact path="/signup" component = {SignUp}/>
+          
         </Switch>
       </Router>
     </AuthProvider>
