@@ -1,12 +1,11 @@
-.bg-mycolor{
-    background-color: rgb(243, 179, 96);
-}
-.boxx{
-    width: 100vw;
+.Block{
+    
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    margin-left: 1%;
+    height: 100vh;
+    background-color: cornflowerblue;
 }
+
 .button1{
     width: 6rem;
     background-color: rgb(235, 93, 93);
@@ -16,51 +15,4 @@
     height: 40px;
     color: honeydew;
     margin-right: 1rem;
-}
-.sidebar{
-    height: 100vh;
-    width: 250px;
-    background-color: #2f4050;
-    float: left;
-
-}
-.SidebarList{
-    height: auto;
-    padding: 0%;
-    width: 100%;
-}
-.SidebarList .row{
-    width: 100%;
-    height: 60px;
-    list-style-type: none;
-    margin: 0%;
-    display: flex;
-    flex-direction: row;
-    color: white;
-    justify-content: center;
-    align-items: center;
-}
-.SidebarList .row:hover{
-    cursor: pointer;
-    background-color: chocolate;
-}
-.row #icon{
-    flex: 20%;
-    display: grid;
-    place-items: center;
-}
-.row #title{
-    flex: 70%;
-}
-.Block{
-    float: left;
-    width: 500px;
-    height: 500px;
-    background-color: cornflowerblue;
-}
-.Block1{
-    float: right;
-    width: 500px;
-    height: 500px;
-    background-color: rgb(0, 89, 255);
 }

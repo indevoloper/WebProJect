@@ -11,7 +11,7 @@ export const SidebarData= [
         link: "/Home"
     },
     {
-        title: "Manage User",
+        title: "Manage Users",
         icon: <PersonPinIcon />,
         link: "/mangeUser"
     },
@@ -21,7 +21,7 @@ export const SidebarData= [
         link: "/mangeRanking"
     },
     {
-        title: "Report user",
+        title: "Report Users",
         icon: <ListAltIcon />,
         link: "/Report"
     },
