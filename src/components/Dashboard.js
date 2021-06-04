@@ -21,7 +21,7 @@ const DashBoard = () => {
         <div className = "Block2">
         <CRUD/>
         </div>
-      
+      <CRUD/>
     </>
   );
 };
