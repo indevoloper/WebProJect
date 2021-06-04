@@ -2,9 +2,9 @@ import React, { useContext } from "react";
 import { Redirect } from "react-router-dom";
 import { AuthContext } from "./Auth";
 import "./Dashboard.css";
-import Head from "./HeadWeb/Head";
-import {Link} from 'react-router-dom'
-import Button from 'react-bootstrap/Button'
+import Navbar from './HeadWeb/Navbar'
+import CRUD from './Page/CRUD'
+
 
 const DashBoard = () => {
   const { currentUser } = useContext(AuthContext);
@@ -15,15 +15,14 @@ const DashBoard = () => {
 
   return (
     <>
+      <Navbar/>
       
-      <Head/>
-      <div className="Block">
-        <h1>Welcome to My Web</h1>
-        <Link to ="/EditUser">
-          <button type="button">Edit User</button>
-        </Link>
-      </div>
-  
+      <div className="contanier-fluid"></div>
+        <div className = "Block2">
+        <CRUD/>
+        </div>
+        <CRUD/>
+      
     </>
   );
 };

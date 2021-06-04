@@ -1,18 +1,35 @@
-.Block{
-    
-    display: flex;
-    margin-left: 1%;
-    height: 100vh;
-    background-color: cornflowerblue;
+.Block {
+  display: flex;
+  background: #37bc9b;
+  height: 200px;
 }
-
-.button1{
-    width: 6rem;
-    background-color: rgb(235, 93, 93);
-    border-radius: 15px;
-    border: 0px ;
-    width: 150px;
-    height: 40px;
-    color: honeydew;
-    margin-right: 1rem;
+.Block2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 18%;
+    margin-right: 5%;
+    width: 65vw;
+    height: 100vh;
+    background-color: cadetblue;
+}
+.button1 {
+  width: 6rem;
+  background-color: rgb(235, 93, 93);
+  border-radius: 15px;
+  border: 0px;
+  width: 150px;
+  height: 40px;
+  color: honeydew;
+  margin-right: 1rem;
+}
+header {
+  padding: 30px;
+  color: white;
+  background-color: #011627;
+  height: 40px;
+}
+header svg {
+  font-size: 30px;
 }

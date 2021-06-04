@@ -2,13 +2,13 @@ import firebase from 'firebase/app';
 import 'firebase/auth';
 
 const firebaseConfig = firebase.initializeApp({
-    apiKey: "AIzaSyBxIhspJ4yPTkrOMWTaDjAv7zlPvtKYFJ4",
-    authDomain: "react-auth-21afa.firebaseapp.com",
-    projectId: "react-auth-21afa",
-    storageBucket: "react-auth-21afa.appspot.com",
-    messagingSenderId: "426552389772",
-    appId: "1:426552389772:web:8f9266f35b0c8350f80ba9",
-    measurementId: "G-SSQX57VD8C"
+    apiKey: "AIzaSyDGgM3doFJprDs0Pb9F7UGgZ-1-mQasz7c",
+    authDomain: "webproject-a855d.firebaseapp.com",
+    projectId: "webproject-a855d",
+    storageBucket: "webproject-a855d.appspot.com",
+    messagingSenderId: "428839609247",
+    appId: "1:428839609247:web:a29693f8988921c7fed3aa",
+    measurementId: "G-CH4RFTD97R"
 });
 
 export default firebaseConfig;
